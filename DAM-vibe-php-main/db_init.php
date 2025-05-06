@@ -12,7 +12,7 @@ $dbname = "rpg_game";
 $port="3307";
 
 // Crear conexión
-$conn = new mysqli($servername, $username, $password, "", $port);
+$conn = new mysqli($servername, $username, $password, $dbname, $port);
 
 // pa conentar: http://localhost/DAM-vibe-php-main/db_init.php
 
@@ -206,6 +206,6 @@ if ($row['count'] == 0) {
 
 echo "<br>¡Inicialización de la base de datos completada con éxito!";
 
-// Cerrar la conexión
-$conn->close();
+// Cerrar la conexión **Quitar mientras se hacen test
+// $conn->close();
 ?>
