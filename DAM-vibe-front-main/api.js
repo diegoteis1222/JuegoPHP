@@ -192,16 +192,69 @@ async function endCombat(result) {
 /**
  * Reinicia el juego
  */
+// Función para reiniciar el juego
 async function restartGame() {
     try {
         const response = await fetch(`${API_BASE_URL}/game/restart`, {
             method: 'POST',
-            credentials: 'include',
+            credentials: 'include',  // Si tu juego usa autenticación de sesión
         });
-        
+
         if (!response.ok) throw new Error('Error al reiniciar el juego');
-        return await response.json();
+        const result = await response.json();
+        console.log(result);  // Verifica la respuesta del servidor
+
+        // Aquí puedes actualizar la UI para reiniciar el juego
+        resetGameUI();
     } catch (error) {
-        return handleApiError(error);
+        console.error(error);
+        alert('Hubo un error al reiniciar el juego.');
     }
 }
+
+// Función para restablecer la UI después de reiniciar el juego
+function resetGameUI() {
+    // Restablecer los elementos del jugador
+    document.getElementById('player-name').innerText = "Aventurero";
+    document.getElementById('player-level').innerText = "1";
+    document.getElementById('player-health').innerText = "100";
+    document.getElementById('player-max-health').innerText = "100";
+    document.getElementById('player-exp').innerText = "0";
+    document.getElementById('player-next-level').innerText = "100";
+    document.getElementById('player-strength').innerText = "10";
+    // Restablecer las barras de salud y experiencia
+    document.getElementById('health-bar-fill').style.width = '100%';
+    document.getElementById('exp-bar-fill').style.width = '0%';
+    
+    // Restablecer el mapa y otras secciones si es necesario
+    resetGameMap();
+    resetCombatPanel();
+    resetGameLog();
+    
+    // Ocultar el modal de fin de juego
+    document.getElementById('game-over-modal').classList.add('hidden');
+}
+
+// Función para reiniciar el mapa
+function resetGameMap() {
+    const map = document.getElementById('game-map');
+    map.innerHTML = '';  // Borra el mapa
+    // Aquí puedes volver a generar el mapa o hacer lo necesario
+}
+
+// Función para reiniciar el panel de combate
+function resetCombatPanel() {
+    const combatPanel = document.getElementById('combat-panel');
+    combatPanel.classList.add('hidden');  // Ocultar el panel de combate
+    document.getElementById('combat-log').innerHTML = '';  // Limpiar el log de combate
+}
+
+// Función para reiniciar el log de aventura
+function resetGameLog() {
+    document.getElementById('adventure-log').innerHTML = '<p>Bienvenido a tu aventura. Usa los controles para moverte.</p>';
+}
+
+// Escuchar el clic en el botón de reiniciar
+document.getElementById('btn-restart').addEventListener('click', async () => {
+    await restartGame();
+});

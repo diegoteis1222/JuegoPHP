@@ -1079,3 +1079,63 @@ Full data: {"direction":"down"}
 2025-05-06 10:20:45 - Received direction: down
 Original position: 2, 2
 Full data: {"direction":"down"}
+2025-05-06 11:24:39 - Received direction: up
+Original position: 2, 3
+Full data: {"direction":"up"}
+2025-05-06 11:24:39 - Received direction: down
+Original position: 2, 2
+Full data: {"direction":"down"}
+2025-05-06 11:24:40 - Received direction: left
+Original position: 2, 3
+Full data: {"direction":"left"}
+2025-05-06 11:25:02 - Received direction: right
+Original position: 1, 3
+Full data: {"direction":"right"}
+2025-05-06 11:25:02 - Received direction: right
+Original position: 2, 3
+Full data: {"direction":"right"}
+2025-05-06 11:25:02 - Received direction: down
+Original position: 3, 3
+Full data: {"direction":"down"}
+2025-05-06 11:25:02 - Received direction: down
+Original position: 3, 4
+Full data: {"direction":"down"}
+2025-05-06 11:25:02 - Received direction: right
+Original position: 3, 5
+Full data: {"direction":"right"}
+2025-05-06 11:25:03 - Received direction: up
+Original position: 4, 5
+Full data: {"direction":"up"}
+2025-05-06 11:48:50 - Received direction: down
+Original position: 4, 4
+Full data: {"direction":"down"}
+2025-05-06 11:48:50 - Received direction: left
+Original position: 4, 5
+Full data: {"direction":"left"}
+2025-05-06 11:48:50 - Received direction: up
+Original position: 3, 5
+Full data: {"direction":"up"}
+2025-05-06 11:49:09 - Received direction: up
+Original position: 1, 1
+Full data: {"direction":"up"}
+2025-05-06 11:49:09 - Received direction: left
+Original position: 1, 1
+Full data: {"direction":"left"}
+2025-05-06 11:49:09 - Received direction: up
+Original position: 1, 1
+Full data: {"direction":"up"}
+2025-05-06 11:49:09 - Received direction: right
+Original position: 1, 1
+Full data: {"direction":"right"}
+2025-05-06 11:49:20 - Received direction: down
+Original position: 1, 1
+Full data: {"direction":"down"}
+2025-05-06 11:49:20 - Received direction: right
+Original position: 1, 2
+Full data: {"direction":"right"}
+2025-05-06 11:49:20 - Received direction: left
+Original position: 2, 2
+Full data: {"direction":"left"}
+2025-05-06 11:49:55 - Received direction: right
+Original position: 1, 1
+Full data: {"direction":"right"}

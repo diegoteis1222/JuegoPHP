@@ -109,3 +109,13 @@ Stack trace:
 #1 {main}
   thrown in C:\xampp\htdocs\DAM-vibe-php-main\index.php on line 44
 [30-Apr-2025 14:08:09 Europe/Berlin] Session state before check: {"session_id":"s2pcnae1i818aq61pvupftqtf3","combat_active":true,"has_enemy":"yes"}
+[06-May-2025 11:48:59 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52
+[06-May-2025 11:48:59 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52
+[06-May-2025 11:49:19 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52
+[06-May-2025 11:49:19 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52
+[06-May-2025 11:49:23 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52
+[06-May-2025 11:49:23 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52
+[06-May-2025 11:49:23 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52
+[06-May-2025 11:49:23 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52
+[06-May-2025 11:49:23 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52
+[06-May-2025 11:49:23 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52
