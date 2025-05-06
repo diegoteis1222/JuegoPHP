@@ -1070,3 +1070,12 @@ Full data: {"direction":"left"}
 2025-04-30 14:08:14 - Received direction: left
 Original position: 5, 2
 Full data: {"direction":"left"}
+2025-05-06 10:20:45 - Received direction: right
+Original position: 1, 1
+Full data: {"direction":"right"}
+2025-05-06 10:20:45 - Received direction: down
+Original position: 2, 1
+Full data: {"direction":"down"}
+2025-05-06 10:20:45 - Received direction: down
+Original position: 2, 2
+Full data: {"direction":"down"}

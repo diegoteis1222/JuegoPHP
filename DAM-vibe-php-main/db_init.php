@@ -100,6 +100,39 @@ if ($conn->query($sql) === FALSE) {
 
 echo "Tabla player_stats creada correctamente.<br>";
 
+// Tabla de tipos de objetos disponibles en el mundo
+$sql = "CREATE TABLE IF NOT EXISTS item_types (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    description TEXT,
+    type ENUM('weapon', 'armor', 'consumable', 'misc') NOT NULL,
+    rarity ENUM('common', 'uncommon', 'rare', 'epic', 'legendary') DEFAULT 'common',
+    value INT DEFAULT 0
+)";
+
+if ($conn->query($sql) === FALSE) {
+    die("Error al crear tabla item_types: " . $conn->error);
+}
+
+echo "Tabla item_types creada correctamente.<br>";
+
+// Tabla de objetos que el jugador a recogido
+$sql = "CREATE TABLE IF NOT EXISTS player_items (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    player_id INT NOT NULL,
+    item_type_id INT NOT NULL,
+    quantity INT DEFAULT 1,
+    acquired_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (player_id) REFERENCES players(id),
+    FOREIGN KEY (item_type_id) REFERENCES item_types(id)
+);";
+
+if ($conn->query($sql) === FALSE) {
+    die("Error al crear tabla player_items: " . $conn->error);
+}
+
+echo "Tabla player_items creada correctamente.<br>";
+
 // Insertar datos iniciales
 
 // Verificar si ya hay datos en las tablas
