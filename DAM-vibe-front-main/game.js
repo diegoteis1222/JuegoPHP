@@ -378,15 +378,14 @@ async function handleEncounter(encounter) {
 
 // Muestra el panel de combate
 function showCombatPanel() {
-    elements.combatPanel.classList.remove('hidden');
-    setActionButtonsEnabled(true);
+    document.querySelector('.map-container').classList.add('hidden');
+    document.getElementById('combat-panel').classList.remove('hidden');
 }
 
 // Oculta el panel de combate
 function hideCombatPanel() {
-    elements.combatPanel.classList.add('hidden');
-    elements.combatLog.innerHTML = '';
-    setActionButtonsEnabled(true);
+    document.querySelector('.map-container').classList.remove('hidden');
+    document.getElementById('combat-panel').classList.add('hidden');
 }
 
 // Actualiza la UI del enemigo
