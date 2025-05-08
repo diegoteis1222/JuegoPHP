@@ -146,3 +146,5 @@ Stack trace:
   thrown in C:\xampp\htdocs\DAM-vibe-php-main\index.php on line 44
 [08-May-2025 10:22:29 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52
 [08-May-2025 10:22:29 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52
+[08-May-2025 10:39:54 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52
+[08-May-2025 10:39:54 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\DAM-vibe-php-main\controllers\game_controller.php on line 52

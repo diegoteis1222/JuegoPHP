@@ -31,6 +31,64 @@ body {
   overflow: hidden;
 }
 
+/* Tema oscuro */
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark-mode .game-container,
+body.dark-mode .player-panel,
+body.dark-mode .map-container,
+body.dark-mode .combat-panel,
+body.dark-mode .game-log,
+body.dark-mode .modal-content {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+body.dark-mode .bar-container {
+  background-color: #333;
+}
+
+body.dark-mode .bar-fill {
+  opacity: 0.8;
+}
+
+body.dark-mode .action-btn,
+body.dark-mode .control-btn {
+  background-color: #555;
+}
+
+body.dark-mode .control-btn:hover,
+body.dark-mode .action-btn:hover {
+  background-color: #777;
+}
+
+body.dark-mode .game-log {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+body.dark-mode .log-content {
+  background-color: #2c2c2c;
+  color: #f0f0f0;
+}
+
+body.dark-mode .log-content p {
+  border-bottom: 1px solid #444;
+}
+
+
+/* Botones azules en el contenedor de reinicio */
+.restart-container .action-btn {
+  background-color: #3498db;
+}
+
+.restart-container .action-btn:hover {
+  background-color: #2980b9;
+}
+
 /* Panel del jugador */
 .player-panel {
   grid-column: 1;
