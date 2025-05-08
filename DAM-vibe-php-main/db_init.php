@@ -9,7 +9,7 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "rpg_game";
-$port="3307";
+$port="3337";
 
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $dbname, $port);

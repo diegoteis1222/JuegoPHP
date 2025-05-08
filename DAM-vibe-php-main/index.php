@@ -37,7 +37,7 @@ $db_config = [
     'username' => 'root',
     'password' => '',
     'dbname' => 'rpg_game',
-    'port' => '3307'
+    'port' => '3337'
 ];
 
 // Conectar a la base de datos

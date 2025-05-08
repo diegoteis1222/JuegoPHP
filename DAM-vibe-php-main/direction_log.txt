@@ -1385,3 +1385,105 @@ Full data: {"direction":"up"}
 2025-05-06 12:18:34 - Received direction: left
 Original position: 5, 3
 Full data: {"direction":"left"}
+2025-05-08 10:19:08 - Received direction: right
+Original position: 4, 3
+Full data: {"direction":"right"}
+2025-05-08 10:19:09 - Received direction: left
+Original position: 5, 3
+Full data: {"direction":"left"}
+2025-05-08 10:19:09 - Received direction: up
+Original position: 4, 3
+Full data: {"direction":"up"}
+2025-05-08 10:19:09 - Received direction: down
+Original position: 4, 2
+Full data: {"direction":"down"}
+2025-05-08 10:22:14 - Received direction: down
+Original position: 4, 3
+Full data: {"direction":"down"}
+2025-05-08 10:22:14 - Received direction: down
+Original position: 4, 4
+Full data: {"direction":"down"}
+2025-05-08 10:22:14 - Received direction: left
+Original position: 4, 5
+Full data: {"direction":"left"}
+2025-05-08 10:22:14 - Received direction: up
+Original position: 3, 5
+Full data: {"direction":"up"}
+2025-05-08 10:22:15 - Received direction: left
+Original position: 3, 4
+Full data: {"direction":"left"}
+2025-05-08 10:22:15 - Received direction: up
+Original position: 2, 4
+Full data: {"direction":"up"}
+2025-05-08 10:22:15 - Received direction: right
+Original position: 2, 3
+Full data: {"direction":"right"}
+2025-05-08 10:22:15 - Received direction: right
+Original position: 3, 3
+Full data: {"direction":"right"}
+2025-05-08 10:22:15 - Received direction: right
+Original position: 4, 3
+Full data: {"direction":"right"}
+2025-05-08 10:22:33 - Received direction: down
+Original position: 1, 1
+Full data: {"direction":"down"}
+2025-05-08 10:29:03 - Received direction: down
+Original position: 1, 2
+Full data: {"direction":"down"}
+2025-05-08 10:29:03 - Received direction: right
+Original position: 1, 3
+Full data: {"direction":"right"}
+2025-05-08 10:29:15 - Received direction: right
+Original position: 2, 3
+Full data: {"direction":"right"}
+2025-05-08 10:29:34 - Received direction: right
+Original position: 3, 3
+Full data: {"direction":"right"}
+2025-05-08 10:29:34 - Received direction: down
+Original position: 4, 3
+Full data: {"direction":"down"}
+2025-05-08 10:29:45 - Received direction: right
+Original position: 4, 4
+Full data: {"direction":"right"}
+2025-05-08 10:29:52 - Received direction: left
+Original position: 5, 4
+Full data: {"direction":"left"}
+2025-05-08 10:29:52 - Received direction: up
+Original position: 4, 4
+Full data: {"direction":"up"}
+2025-05-08 10:29:52 - Received direction: left
+Original position: 4, 3
+Full data: {"direction":"left"}
+2025-05-08 10:29:52 - Received direction: up
+Original position: 3, 3
+Full data: {"direction":"up"}
+2025-05-08 10:29:52 - Received direction: right
+Original position: 3, 2
+Full data: {"direction":"right"}
+2025-05-08 10:29:52 - Received direction: left
+Original position: 4, 2
+Full data: {"direction":"left"}
+2025-05-08 10:29:52 - Received direction: left
+Original position: 3, 2
+Full data: {"direction":"left"}
+2025-05-08 10:29:53 - Received direction: right
+Original position: 2, 2
+Full data: {"direction":"right"}
+2025-05-08 10:29:53 - Received direction: right
+Original position: 3, 2
+Full data: {"direction":"right"}
+2025-05-08 10:29:53 - Received direction: right
+Original position: 4, 2
+Full data: {"direction":"right"}
+2025-05-08 10:29:54 - Received direction: down
+Original position: 5, 2
+Full data: {"direction":"down"}
+2025-05-08 10:29:55 - Received direction: down
+Original position: 5, 3
+Full data: {"direction":"down"}
+2025-05-08 10:29:55 - Received direction: left
+Original position: 5, 4
+Full data: {"direction":"left"}
+2025-05-08 10:29:55 - Received direction: left
+Original position: 4, 4
+Full data: {"direction":"left"}
